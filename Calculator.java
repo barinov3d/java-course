@@ -5,26 +5,18 @@ public class Calculator
 {
   private int result;
 
-	  public void add(int ... params){
-		for (Integer param : params){
-			this.result += param;
-		}}
-	  public void sub(int ... params){
-		for (Integer param : params){
-			this.result -= param;
-		}}
-	  public void div(int ... params){
-		for (Integer param : params){
-			this.result /= param;
-		}}
-	  public void mult(int ... params){
-		for (Integer param : params){
-			this.result *= param;
-		}}
-/*	  public void exp(int ... params){
-		for (Integer param : params){
-			this.result ^= param;
-		}}*/	
+	  public void add(int a, int b){
+			this.result = a + b;
+		}
+	  public void sub(int a, int b){
+			this.result = a - b;
+		}
+	  public void div(int a, int b){
+			this.result = a / b;
+		}
+	  public void mult(int a, int b){
+			this.result = a * b;
+		}	
 	public int getResult(){
 	return this.result;
 	}

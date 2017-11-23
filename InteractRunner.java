@@ -7,9 +7,9 @@ public class InteractRunner{
 	Scanner reader = new Scanner(System.in);
 			try{
 			Calculator calc = new Calculator();
-			String exit = "no";
+			final String exit = "no";
 			while(!exit.equals("yes")) {
-				String showResult = "no";
+				final String showResult = "no";
 				System.out.println("Enter first arg :");
 				String first = reader.next();
 				String second = null;
